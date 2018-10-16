@@ -1,0 +1,51 @@
+header{
+    height: 72px;
+    background-color: #d43b33;
+}
+header #logo{
+    width: 118px;
+    height: 72px;
+    background-image: url(../imgs/LOGO.png)
+}
+header #mianNav>li{
+    font: 16px/22px "微软雅黑";
+    height: 42px;
+    color: #fff; 
+    margin-right: 35px;
+    margin-top: 30px; 
+    float: left;
+    position: relative;
+}
+header #mianNav li a{
+    color: #fff;
+}
+header #mianNav li a:hover{
+    text-decoration: none;
+    display: block;
+    height: 42px;
+    background: url(../imgs/nav_bg.png) no-repeat;
+    background-position: center bottom;
+}
+header #mianNav .subNav{
+    background-color: rgba(163, 0, 0, 0.5);
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    top: 42px;
+    width: 80px;
+    display: none;
+}
+header #mianNav .subNav li{
+    padding: 5px;
+    border-bottom: 1px solid rgb(148, 21, 21);
+} 
+header #mianNav>li:hover .subNav{
+    display: block;
+}
+
+/* 轮播图 */
+#banner img 
+{
+    width: 100%;
+    min-width: 1000px;
+}

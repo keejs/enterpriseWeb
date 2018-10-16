@@ -1,0 +1,23 @@
+#blankBox{
+    height: 1px;
+    border-bottom: 1px solid #cdcdcd;
+}
+.site{
+    width: 333px;
+    height: 150px;
+    /* border: #cdcdcd solid 1px; */
+    /* display: table-cell; */
+    text-align: center;
+}
+#map{
+    width: 1349px;
+    height: 425px;
+    margin: 0px auto;
+    /* min-width: 1280px;
+    max-width: 2000px; */
+    /* text-align: center; */
+    /* height: 425px;
+    background:url(../imgs/map.png) no-repeat;
+    background-position: center center;
+     */
+} 

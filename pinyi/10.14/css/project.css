@@ -1,0 +1,77 @@
+#projectMenu li{
+    float: left;
+    width: 333px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+#projectMenu{
+    height: 43px;
+}
+#projectMenu .current{
+    width: 334px;
+    height: 42px;
+    background: url(../imgs/tapbg.png);
+}
+#projectNewsImg{
+    box-sizing: border-box;
+    width: 670px;
+    height: 200px;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+#projectNewsImg img{
+    width: 200px;
+    height: 125px;
+   
+}
+#projectNews{
+    width: 370px;
+    height: 130px;
+    /* background-color: red; */
+}
+#projectNews .projectNewsText{
+    font-size: 14px;
+
+}
+#referrer{
+    width: 300px;
+    height: 130px;
+    border: 1px solid #dddddd;
+    /* background-color: rgb(153, 0, 255); */
+    margin-top: 40px;
+}
+#referrer #referrerText{
+    margin: 35px;
+}
+.div670{
+    width: 670px;
+}
+#pager li{
+    height: 20px;
+    padding: 5px 10px;
+    float: left;
+    margin-left: 2px;
+    background-color: #f0f0f0;
+    
+}
+#pager .current{
+    background-color: #d43b33;
+    color: #fff;
+}
+#pager .first{
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+#pager .last{
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}

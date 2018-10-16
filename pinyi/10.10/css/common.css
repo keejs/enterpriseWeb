@@ -1,0 +1,51 @@
+.autodiv,header,footer,#banner,#project{
+    width: 100%;
+}
+.div1000,#aboutUs,company,#newsMSG{
+    width: 1000px;
+    min-width: 1000px;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.fl{
+    float: left; 
+}
+.fr{
+    float: right;
+} 
+.clear{
+    clear:both;
+}
+.boeder {
+     border-bottom: solid 1px #cbcbcb;
+}
+.titletext{
+    font: 20px/24px "微软雅黑";
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.textCenter{
+    text-align: center; 
+}
+.colorRed{
+    color: #d43b33;
+}
+.colorBlack{
+    color:#000;
+}
+.fontwei{
+    font-weight: bold;
+}
+.paddingTop45{
+    padding-top: 42px;
+
+}
+.margin20{
+    margin-bottom: 20px;
+}
+.margintop20{
+    margin-top: 20px;
+}
+.height80{
+    height: 80px;
+}

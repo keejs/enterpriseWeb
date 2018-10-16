@@ -1,0 +1,91 @@
+
+/* 关于我们 */
+
+#aboutUs #aboutTitle{
+    width: 180px;
+    height: 80px;
+    color: #626262;
+    position: relative;
+    top: 45px;
+    background-color: #ffffff;
+    margin: 0px auto;
+} 
+#aboutUs .btnMore{
+    width: 106px;
+    height: 38px;
+    margin: 20px auto;
+    line-height: 38px;
+    text-align: center;
+    background: url(../imgs/more_bg.png) no-repeat;
+}
+#aboutUs .btnMore:hover{
+    cursor: pointer;
+}
+/* 我们的企业文化 */
+#epCulture {
+    height: 440px;
+    background: url(../imgs/projectBG.png);
+    margin-top: 50px;
+}
+#epCulture #epContent dd{
+    border-bottom: 1px solid #cdcdcd;
+    font-size: 12px;
+}
+#epCulture #epContent dt{
+    color: #000000;
+    font-size: 14px;
+}
+#epCulture #epContent{
+    font-weight: bold;
+    line-height: 27px;
+    width: 350px;
+
+}
+#epCulture .paddingTop50px{
+    padding-top: 50px;
+}
+/* 大事记 */
+#events .evenDiv250{
+    width: 250px;
+    height: 174px;
+    position: relative;
+}
+#events .evenDiv250 .teriangle{
+    border: 10px solid #4b4b4b;
+    width: 0px;
+    height: 0px;
+    border-color: transparent #4b4b4b transparent transparent;
+    position: absolute;
+    right: 0px;
+    top: 82px;
+}
+#events .evenDiv250 .teriangleleft{
+    border: 10px solid #4b4b4b;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent transparent #4b4b4b;
+    position: absolute;
+    left: 0px;
+    top: 82px;
+}
+#events .bgColor{
+    background-color: #4b4b4b;
+    color: #fff;
+    padding: 0px 20px;
+    width: 210px;;
+}
+#events #goOn{
+    height: 52px;
+    background-color: #d43b33;
+    text-align: center;
+    line-height: 52px;
+    font-size: 16px;
+    color: #fff;
+
+}
+#onlineService{
+    background-color: #d43b33;
+    position: fixed;
+    top: 200px;
+    left: 0px;
+}

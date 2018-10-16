@@ -1,0 +1,32 @@
+footer{
+    width: 100%;
+    height: 320px;
+    background: url(../imgs/footerbg.png);
+    margin-top: 60px;
+}
+footer #footererLogo{
+    width: 88px;
+    height: 100px;
+    background: url(../imgs/logo_top.png) no-repeat;
+    margin-top: 60px;
+    
+}
+footer #footererLogo #footerLogoText{
+    text-align: center;
+  
+    position: relative;
+    top: 48px;
+}
+footer #footerCopyright{
+    margin-top: 55px;
+    margin-left: 100px
+}
+.colorwhite{
+    color: #fff;
+}  
+footer h2{
+    margin-bottom: 15px;
+}
+footer p{
+    margin-bottom: 30px;
+}

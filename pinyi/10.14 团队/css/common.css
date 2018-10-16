@@ -1,0 +1,106 @@
+.autodiv,header,footer,#banner,#project{
+    width: 100%;
+}
+.div1000,#aboutUs,company,#newsMSG{
+    width: 1000px;
+    min-width: 1000px;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.team{
+    width: 1000px;
+    height: 220px;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    text-align: center;
+}
+.fl{
+    float: left; 
+}
+.fr{
+    float: right;
+} 
+.clear{
+    clear:both;
+}
+.boeder {
+     border-bottom: solid 1px #cbcbcb;
+}
+.fontSize14{
+    font-size: 14px;
+}
+.fontSize16{
+    font-size: 16px;
+}
+.fontSize18{
+    font-size: 18px;
+}
+.titletext{
+    font: 20px/24px "微软雅黑";
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.textCenter{
+    text-align: center; 
+}
+.colorRed{
+    color: #d43b33;
+}
+.colorBlack{
+    color:#000;
+}
+.fontwei{
+    font-weight: bold;
+}
+.paddingTop45{
+    padding-top: 42px;
+
+}
+.paddingTop20{
+    padding-top: 20px;
+
+}
+.margin20{
+    margin-bottom: 20px;
+}
+.margintop20{
+    margin-top: 20px;
+}
+.margin10{
+    margin: 10px 0px;
+}
+
+#onlineService{
+    background-color: #d43b33;
+    position: fixed;
+    top: 200px;
+    left: 0px;
+}
+#onlineService{
+    background-color: #d43b33;
+    position: fixed;
+    top: 200px;
+    left: 0px;
+}
+
+
+/* #aboutUs #aboutTitle{
+    width: 180px;
+    height: 80px;
+    color: #626262;
+    position: relative;
+    top: 45px;
+    background-color: #ffffff;
+    margin: 0px auto;
+} 
+#aboutUs .btnMore{
+    width: 106px;
+    height: 38px;
+    margin: 20px auto;
+    line-height: 38px;
+    text-align: center;
+    background: url(../imgs/more_bg.png) no-repeat;
+}
+#aboutUs .btnMore:hover{
+    cursor: pointer;
+} */
